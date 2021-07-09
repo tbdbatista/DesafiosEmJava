@@ -1,4 +1,4 @@
-package DesafioUm;
+package DesafioUm.Desafio;
 
 // From>> Sololearn
 
@@ -27,14 +27,11 @@ public class Bowling {
     public void addPlayer(String name, int p) {
         players.put(name, p);
     }
-    //your code goes here
-    public void getWinner (){
-        Integer maiorPontuacao = Collections.max(players.values());
-        for (Map.Entry<String, Integer> entry : players.entrySet()){
-            if (entry.getValue() == maiorPontuacao) System.out.println(entry.getKey());
-        }
 
-    }
+    public void getWinner(){}
+    //YOUR CODE GOES HERE
+
+
 }
 
 class Program {
